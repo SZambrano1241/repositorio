@@ -1,0 +1,81 @@
+/* Estilos para el encabezado h1 */
+h1 {
+  color: #333; /* Color de texto */
+  font-family: Arial, sans-serif; /* Fuente del texto */
+  text-align: center; /* Alineación del texto */
+}
+
+/* Estilos para el párrafo */
+p {
+  color: #666;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para la imagen */
+img {
+  display: block; /* Hace que la imagen sea un bloque y se centre */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #007bff; /* Color del texto del enlace */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+/* Estilos para las listas no ordenadas (ul) */
+ul {
+  list-style-type: disc; /* Tipo de marcador (puntos) */
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para las listas ordenadas (ol) */
+ol {
+  list-style-type: decimal; /* Tipo de marcador (números) */
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+td {
+  padding: 8px; /* Espacio interno de las celdas */
+  border: 1px solid #ccc; /* Borde de las celdas */
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 400px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+}
+
+label {
+  display: block; /* Hace que cada etiqueta sea un bloque */
+  margin-bottom: 5px; /* Espacio inferior entre etiquetas */
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Ancho completo del campo de entrada */
+  padding: 8px; /* Espacio interno del campo de entrada */
+  margin-bottom: 10px; /* Espacio inferior entre campos */
+  border: 1px solid #ccc; /* Borde del campo de entrada */
+  border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color de texto del botón */
+  padding: 10px 20px; /* Espacio interno del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+
+/* Estilos para el botón de enviar al pasar el cursor por encima */
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+}

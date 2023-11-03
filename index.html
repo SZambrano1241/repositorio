@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    /* Estilos adicionales en línea para la tabla */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+
+    /* Estilos adicionales en línea para el formulario */
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilos adicionales en línea para el botón de enviar */
+    button[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    /* Estilos adicionales en línea para el botón de enviar al pasar el cursor por encima */
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mi página de mascotas</h1>
+  <p>En esta página encontrarás información sobre diferentes mascotas.</p>
+  <img width="300px" src="https://th.bing.com/th/id/R.b9c488a0e789332295988e46f93a6afc?rik=YyJcMqvbOW%2f5GQ&pid=ImgRaw&r=0" alt="Un perro">
+
+  <h2>Mascotas populares</h2>
+  <ul>
+    <li>Perros</li>
+    <li>Gatos</li>
+    <li>Pájaros</li>
+  </ul>
+
+  <h2>Actividades para cuidar a tu mascota</h2>
+  <ol>
+    <li>Comprar comida para perros</li>
+    <li>Llevar al perro al veterinario</li>
+    <li>Pasear al perro</li>
+  </ol>
+
+  <h2>Adorables mascotas</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Raza</th>
+        <th>Edad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Buddy</td>
+        <td>Golden Retriever</td>
+        <td>5 años</td>
+      </tr>
+      <tr>
+        <td>Luna</td>
+        <td>Siamese</td>
+        <td>2 años</td>
+      </tr>
+      <tr>
+        <td>Tweety</td>
+        <td>Canario</td>
+        <td>1 año</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Contáctanos</h2>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje"></textarea><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
